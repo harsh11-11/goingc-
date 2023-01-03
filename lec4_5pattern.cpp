@@ -1,151 +1,152 @@
 #include<iostream>
 using namespace std;
-
 int main(){
-    int n,i=1,j;
-    cout<<"Enter size of Square Pattern"<<endl;
+
+    int i=1,n,j;
+    cout<<"Enter the number n:"<<endl;
     cin>>n;
+    char ch = 'A';
 
-    while(i<=n){
-        j=1;        
-        while(j<=n){
-        cout<<"*";
-        j++;
-        }
-        cout<<endl;
-        i++;
-    }
 
-    i=1;
-    while(i<=n){
-        j=1;
-        while (j<=n)
-        {
-            cout<<i;
-            j++;
-        }
-        cout<<endl;
-        i++;
-    }
-
-    i=1;
-    while(i<=n){
-        j=1;
-        while (j<=n)
-        {
-            cout<<j;
-            j++;
-        }
-        cout<<endl;
-        i++;
-    }
-
-    i=0;
-    while (i<n)
+    while (i<=n)
     {
-        /* code */
-        j=0;
-        while (j<n)
-        {
-            cout<<n-j;
+        j=1;
+        while(j<=n){
+            ch='A'+i-1;
+            cout<<ch;
+            j++;
+        }
+        i++;
+        cout<<endl;
+    }
+    
+cout<<endl;
+
+    i=1;
+    ch='A';
+    while(i<=n){
+        j=1;
+        while(j<=n){
+            ch = 'A' + j - 1;
+            cout<< ch;
             j++;
         }
         cout<<endl;
         i++;
+
+    }
+
+cout<<endl;
+
+    i=1;
+    ch='A';
+    while(i<=n){
+        j=1;
+        while(j<=n){
+            cout<<ch;
+            ch=ch+1;
+            j++;
+        }
+        cout<<endl;
+        i++;
+    }
+
+ cout<<endl;
+
+    
+    i=1;
+    int k = 0;
+    while (i<=n)
+    {   
+        j=1;
+        
+        while (j<=n)
+        {
+            ch = 'A'+ j - 1 + k;//'A'+i+j-2
+            cout<<ch;
+            j++;
+        }
+        cout<<endl;
+        i++;
+        k++;
         
     }
-    
-    
-    int count = 1;
-    i=1;
-    while(i<=n){
-        j=1;
-        while(j<=n){
-            cout<<count;
-            j++;
-            count++;
-        }
-        cout<<endl;
-        i++;
-    }
-    
-    i=1;
-    while(i<=n){
-        j=1;
-        while(j<=i){
-            cout<<"*";
-            j++;
-        }
-        cout<<endl;
-        i++;
-    }
 
+ cout<<endl;
+ 
     i=1;
     while (i<=n)
     {
         j=1;
         while (j<=i)
         {
-            cout<<i;
+            ch = 'A'+i-1;
+            cout<<ch;
             j++;
         }
         cout<<endl;
         i++;
-        
     }
     
+cout<<endl;
 
     i=1;
-    count =1;
-    while(i<=n){
+    ch='A';
+    while (i<=n)
+    {
         j=1;
-        while(j<=i){
-            cout<<count;
+        while (j<=i)
+        {
+            cout<<ch; 
+            ch = ch + 1;
             j++;
-            count++;
         }
         cout<<endl;
         i++;
         
     }
 
-    i=1;
-    while(i<=n){
-        j=1;
-        count = i;
-        while(j<=i){
-            cout<<count;
-            j++;
-            count++;
-        }
-        cout<<endl;
-        i++;
-
-    }
-
+cout<<endl;
 
     i=1;
     while(i<=n){
         j=1;
         while(j<=i){
-            cout<<i+j-1;
-            j++;
-        }
-        i++;
-        cout<<endl;
-    }
-
-
-    i=1;
-    while(i<=n){
-        j=1;
-        while(j<=i){
-            cout<<i-j+1;
+            ch = 'A'+i+j-2;
+            cout<<ch;
             j++;
         }
         cout<<endl;
         i++;
     }
 
+cout<<endl;
+
+    i=1;
+    while(i<=n){
+        j=1;
+        while(j<=i){
+            ch = 'A'+n-i;
+            cout<<ch;
+            j++;
+        }
+        cout<<endl;
+        i++;
+    }
+
+    cout<<endl;
+
+    i=1;
+    while(i<=n){
+        j=1;
+        while(j<=i){
+            ch = 'A'+n-i-1+j;
+            cout<<ch;
+            j++;
+        }
+        cout<<endl;
+        i++;
+    }
+    
 
 }
