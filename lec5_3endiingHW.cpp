@@ -19,7 +19,7 @@ int main(){
     // }
     // cout<<endl<<"In Binary is: "<<endl<< ans;
 
-    //binary decimal
+    //binary to  decimal
     int n=0,num=0,ans = 0;
     cout<<"Enter a Binary Number"<<endl;
     cin>>n;
