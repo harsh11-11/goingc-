@@ -11,6 +11,15 @@ bool isEven(int num){
 
 }
 
+bool isPrime(int n){
+    for(int i=2;i<n;i++){
+        if(n%2==0){
+            return false;
+        }
+    }
+    return true;
+}
+
 int power(int num1,int num2){
     int ans = 1;
     while(num2!=0){
@@ -90,4 +99,11 @@ int main(){
 
     cout<<"Fibonacci Series uptil ath is:"<<endl;
     fibo(a);
+
+    if(isPrime(a) == 1){
+        cout<<"prime number"<<endl;    
+    }
+    else{
+        cout<<"not prime number"<<endl;
+    }
 }

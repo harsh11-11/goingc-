@@ -5,6 +5,7 @@ using namespace std;
 int main(){
     
     //7. reverse integer //1009,476
+    //INT_MAX and INT_MIN
     int n,ans=0,digit=0;
     //int i=0;
     cin>>n;

@@ -2,7 +2,8 @@
 #include<math.h>
 using namespace std;
 int main(){
-    //1009
+    //1009 ^1 = gives output in decimal.
+    //&1 = gives output in binary.
     int num = 0;
     int ans = 0,bit = 0,count = 0;
     while(num!=0){
