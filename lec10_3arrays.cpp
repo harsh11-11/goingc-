@@ -1,14 +1,15 @@
 #include<iostream>
-#include<bits/stdc++>
 
 using namespace std;
 int main(){
     //find unique codestudio
     //1207 leet
     //Duplicate in array codestudio
-    
-    vector <int> arr;
-
+    //all duplicates - abs
+    // array intersection - 2 pointers
+    //pair sum two forloops
+    //3sum hard not able to do
+    //sort 012 hard not able to do.
 
 
     return 0;
